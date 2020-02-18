@@ -3,9 +3,9 @@ import './Cards.scss'
 
 const Cards = (props, id) => {
   return (
-    <div className="card" key={props.id}>
-      <img src={props.url} alt="" />
-      <p>{props.name}</p>
+    <div className="card" key={id}>
+      <img src={props.Icon} alt="" />
+      <p>{props.Name}</p>
     </div>
   )
 };

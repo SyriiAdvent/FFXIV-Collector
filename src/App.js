@@ -12,20 +12,10 @@ import './App.css';
 
 const {Achievements, AchievementsPublic, Character, FreeCompany, FreeCompanyMembers, Friends, FriendsPublic, Minions, Mounts} = ffxivData;
 
-const cardMaker = obj => {
-  obj.forEach( ele => {
-    console.log(ele)
-  })
-}
-cardMaker(Minions)
-
-console.log(Minions)
-
 function App() {
   return (
     <div className="App">
-      {/* <Cards url={Minions[0].Icon} name={Minions[0].Name}/> */}
-      {Minions.map( (ele, index) => Cards(ele) )}
+      {Minions.map( (ele, index) => Cards(ele, index) )}
     </div>
   );
 }

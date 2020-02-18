@@ -2153,6 +2153,7 @@ const ffxivData =
   ],
   "Mounts": [
     {
+      "id": 1,
       "Icon": "https://img.finalfantasyxiv.com/lds/h/y/mh-Q9DC4CeD3dITnpD0a9nB8Tw.png",
       "Name": "Company Chocobo"
     },
